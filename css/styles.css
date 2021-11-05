@@ -1,1 +1,23 @@
-body { background-color: khaki;}
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: #212121;
+    --main-text-color: #757575;
+    --second-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --main-btn-color: #ffffff;
+    --second-btn-color: #212121;
+    --header-text-color: #212121;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
